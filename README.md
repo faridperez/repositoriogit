@@ -1,7 +1,7 @@
 Integrantes:
-
+<br>
 Diego Sarmiento Leon <br>
-Farid Yael Perez De Gabriel
-Jahzeel Isai Reyes Melendez
-Uriel Emmanuel Plata Rodriguez
+Farid Yael Perez De Gabriel <br>
+Jahzeel Isai Reyes Melendez <br>
+Uriel Emmanuel Plata Rodriguez <br>
 Yahir Sanchez Morales
