@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comandos</title>
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdd25hyNQOMs4Xx1Cv_A_oaT0zagfSWlXMBA&s" style="display: inline;" width="5%">
+        <h2 style="display: inline; margin: 2%;">Inicio</h2>
+        <img src="https://miro.medium.com/v2/resize:fit:1125/0*N1fmHtI8gmkH_2Vu.png" style="display: inline;" width="5%">
+    </header>
 
+    <section class="nav">
+        <h2>Secciones</h2>
+        <a href="index.html"> <div class="a">Inicio</div></a>
+        <a href="acercadegit.html"> <div class="a">Sobre git</div></a>
+        <a href="comandos.html"> <div class="a">Comandos</div></a>
+        <a href="evidencia.html"> <div class="a">Crear repositorio</div></a>
+    </section>
+
+    <section class="content">
+        <strong><h3>Comandos más Utilizados de Git</h3></strong>
+        <p>Git ofrece una amplia variedad de comandos que nos facilitan trabajar de manera
+        eficiente a lo largo de un proyecto, estos comandos nos permiten tener un mayor control.
+        <em>Los comandos mas utilizados de Git son:</em></p>
+        <strong><h4>1.Clona un repositorio</h4></strong>
+        <p><em><div class="comando">git clone URL del repositorio</div></em>
+        Con este comando copiamos el repositorio remoto en la maquina local, permitiendo trabajar en
+        él.</p>
+        <strong><h4>2.Bajar los cambios</h4></strong>
+        <p><em><div class="comando">git pull nombre-de-la-rama</div></em>
+        Con este comando bajaremos todos los cambios subidos al repositorio.</p>
+        <strong><h4>3.Crear una rama</h4></strong>
+        <p><em><div class="comando">git checkout -b nombre-de-la-rama git checkout nombre-de-la-rama</div></em>
+        Con el primer comando crearemos ua rama nueva con la cual trabajaremos y el segundo
+        cambiaremos a la rama que deseamos trabajar o simplemente ver sus cambios.
+        <em><div class="comando">git bransh nombre-de-la-rama git branch -m antiguo-nombre nuevo-nombre git branch -d nombre-de-la-rama</div>
+        estos comandos crean, renombran y borran una rama respectivamente.</p>
+        <strong><h4>4.Agregar y Confirmar cambios</h4></strong>
+        <p><em><div class="comando">git status git add . git commit -m "descripción del cambio(s)</div></em>
+        Los comandos anteriores se pueden ver los cambios realizados en la rama,
+        agregar los cambios a los archivos y confirmar los cambios realizados.</p>
+        <strong><h4>5.enviar cambios al repositorio</h4></strong>
+        <p><em><div class="comando">git push origin nombre-de-la-rama</div></em>
+        Con este comando se envian los cambios realizados al repositorio.</p>
+        <strong><h4>6.Historial de cambios</h4></strong>
+        <p><em><div class="comando">git log</div></em>
+        Despliega una lista de los cambios realizados en el repositorio con la fecha y hora respectiva de modificacion.</p>
+        <strong><h4>7.Sacar cambios</h4></strong>
+        <p><em><div class="comando">git status git restore</div></em>
+        Se usa para deshacer cambios, git status se ejecutara si queremos cambiar un archivo en especifico,
+        si deseamos cambiar el proyecto completo ejecutaremos git restore.</p>
+        <strong><h4>8.Guardar temporalmente</h4></strong>
+        <p><em><div class="comando">git stash save "Descripcion opcional" git stash list</div></em>
+        Se usa para guardar temporalmente los cambios que no han sido subidos al repositorio,
+        el segundo comando muestra la lista de todos  los stashes creados y sus respectivas
+        descripciones.</p>
+        </div>
+    </section>
+</body>
+</html>
