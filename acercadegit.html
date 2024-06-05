@@ -1,141 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Index</title>
 </head>
 <body>
-            <h1>Git</h1>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdd25hyNQOMs4Xx1Cv_A_oaT0zagfSWlXMBA&s" style="display: inline;" width="5%">
+        <h2 style="display: inline; margin: 2%;">Inicio</h2>
+        <img src="https://miro.medium.com/v2/resize:fit:1125/0*N1fmHtI8gmkH_2Vu.png" style="display: inline;" width="5%">
+    </header>
 
+    <section class="nav">
+        <h2>Secciones</h2>
+        <a class="direc" href="index.html"> <div class="a">Inicio</div></a>
+        <a class="direc" href="acercadegit.html"> <div class="a">Sobre git</div></a>
+        <a class="direc" href="comandos.html"> <div class="a">Comandos</div></a>
+        <a class="direc" href="evidencia.html"> <div class="a">Crear repositorio</div></a>
+    </section>
 
-        <div class="introduccion">
+    <section class="content">
+        <h3>Introduccion</h3>
+        <p>El desarrollo de software ha evolucionado significativamente en las últimas décadas, y con el, han surgido
+            herramientas esenciales que han revolucionado la forma en que los equipos de desarrollo colaboran y gestionan el código fuente. Uno de los pilares fundamentales
+            de este cambio es <b>Git</b>, un sistema de control de versiones distribuido que ha cambiado la forma en que
+            los desarrolladores trabajan en equipo y gestionan el flujo de cambios en un proyecto.</p>
 
-            <h2>Introduccion</h2>
-            <p>El desarrollo de software ha evolucionado significativamente en las últimas décadas, y con el, han surgido<br>
-                herramientas esenciales que han revolucionado la forma en que los equipos de desarrollo colaboran y gestionan el código fuente. Uno de los pilares fundamentales<br>
-                de este cambio es <b>Git</b>, un sistema de control de versiones distribuido que ha cambiado la forma en que<br>
-                los desarrolladores trabajan en equipo y gestionan el flujo de cambios en un proyecto.</p>
+        <h3>¿Qué es Git?</h3>
+        <p>
+            <b>Git</b> es un sistema de control de versiones distribuido desarrollado por Linus Torvalds en 2005.
+            Se diseño originalmente para gestionar el desarrollo del kernel de Linux, pero su flexibilidad y eficiencia lo convirtieron en una herramienta ampliamente adoptada en la industrial del software. En esencia, <b>Git</b> permite rastrear los cambios en el código fuente a lo largo del tiempo, lo que facilita
+            la colaboración entre desarrolladores y la gestión del ciclo de vida del software.
+        </p>
 
-        </div>
+        <h3>Caracteristicas Clave de Git</h3>
 
-        <div class="whois">
+        <h4>1. Distribuido y Descentralizado</h4>
+        <p>  A diferencia de los sistemas de control de versiones centralizados, en los que almacena una única copia de repositorio,
+            Git es distribuido  y como desarrolladores tenemos una copia completa del historia de cambios. Esto nos permite trabajar de forma independiente
+            y fusionar nuestros cambios en el repositorio principal de manera eficiente.
+        </p>
 
-            <h2>¿Qué es Git?</h2>
-            <p>
-                <b>Git</b> es un sistema de control de versiones distribuido desarrollado por Linus Torvalds en 2005. <br>
-                Se diseño originalmente para gestionar el desarrollo del kernel de Linux, pero su flexibilidad y eficiencia lo convirtieron en una herramienta <br>ampliamente adoptada en la industrial del software. En esencia, <b>Git</b> permite rastrear los cambios en el código fuente a lo largo del tiempo, lo que facilita<br>
-                la colaboración entre desarrolladores y la gestión del ciclo de vida del software.
-            </p>
+        <h4>2. Rastreo Preciso de Cambios</h4>
 
-        </div>
+        <p>
+            Git realiza un seguimiento preciso de los cambios realizados en cada archivo a lo largo del tiempo.
+            Esto nos permite como desarrolladore ver el historial completo de cambios, incluidas las diferencias entre versiones y la posibilidad de
+            regresar a versiones anteriores en caso de problemas.
 
+        </p>
 
-        <div class="caracteristicas">
+        <h4>3. Ramificación Eficiente</h4>
 
-            <h2>Caracteristicas Clave de Git</h2>
+        <p>
+            Git hace que la creación y gestión de ramas branches sea sencillo. Como desarrollador podemos crear ramas para trabajar
+            con nuevas características o arreglos sin afectar la rama principal. Esto fomenta el desarrollo paralelo y facilita la colaboración en equipos grandes.
+        </p>
 
-            <h3>1. Distribuido y Descentralizado</h3>
-            <p>  A diferencia de los sistemas de control de versiones centralizados, en los que almacena una única copia de repositorio,<br>
-                Git es distribuido  y como desarrolladores tenemos una copia completa del historia de cambios. Esto nos permite trabajar de forma independiente<br>
-                y fusionar nuestros cambios en el repositorio principal de manera eficiente.
-            </p>
+        <h4>4. Fusiones Simplificadas</h4>
 
+        <p>
+            La capacidad de fusionar cmabios entre diferntes ramas aes una caracteristica clave de Git. Como desarrollador podemos cambinar
+            cambios de manera eficiente lo que facilita la intregación continua y evita conflictos de codigo.
+        </p>
 
-            <h3>2. Rastreo Preciso de Cambios</h3>
-            
-            <p>
-                Git realiza un seguimiento preciso de los cambios realizados en cada archivo a lo largo del tiempo. <br>
-                Esto nos permite como desarrolladore ver el historial completo de cambios, incluidas las diferencias entre versiones y la posibilidad de<br>
-                regresar a versiones anteriores en caso de problemas.
+        
 
-            </p>
-
-            <h3>3. Ramificación Eficiente</h3>
-
-            <p>
-                Git hace que la creación y gestión de ramas branches sea sencillo. Como desarrollador podemos crear ramas para trabajar <br>
-                con nuevas características o arreglos sin afectar la rama principal. Esto fomenta el desarrollo paralelo y facilita la colaboración en equipos grandes.
-            </p>
-
-            <h3>4. Fusiones Simplificadas</h3>
-
-            <p>
-                La capacidad de fusionar cmabios entre diferntes ramas aes una caracteristica clave de Git. Como desarrollador podemos cambinar <br>
-                cambios de manera eficiente lo que facilita la intregación continua y evita conflictos de codigo.   
-            </p>
-
-            <h3></h3>
-        </div>
-
-    <div class="Comandinfo">
-    <h1>Caracteristicas de Git</h1>
-    <strong><h2>Comandos más Utilizados de Git</h2></strong>
-    <p>Git ofrece una amplia variedad de comandos que nos facilitan trabajar de manera<br>
-    eficiente a lo largo de un proyecto, estos comandos nos permiten tener un mayor control.<br>
-    <em>Los comandos mas utilizados de Git son:</em></p>
-    <strong><h3>1.Clona un repositorio</h3></strong>
-    <p><em><span class="comando">git clone URL del repositorio</span></em><br>
-    Con este comando copiamos el repositorio remoto en la maquina local, permitiendo trabajar en<br>
-    él.</p>
-    <strong><h3>2.Bajar los cambios</h3></strong>
-    <p><em><span class="comando">git pull nombre-de-la-rama</span></em><br>
-    Con este comando bajaremos todos los cambios subidos al repositorio.</p>
-    <strong><h3>3.Crear una rama</h3></strong>
-    <p><em><span class="comando">git checkout -b nombre-de-la-rama<br>git checkout nombre-de-la-rama</span></em><br>
-    Con el primer comando crearemos ua rama nueva con la cual trabajaremos y el segundo<br>
-    cambiaremos a la rama que deseamos trabajar o simplemente ver sus cambios.<br>
-    <em><span class="comando">git bransh nombre-de-la-rama<br>git branch -m antiguo-nombre nuevo-nombre<br>git branch -d nombre-de-la-rama</span><br>
-    estos comandos crean, renombran y borran una rama respectivamente.</p>
-    <strong><h3>4.Agregar y Confirmar cambios</h3></strong>
-    <p><em><span class="comando">git status<br>git add .<br>git commit -m "descripción del cambio(s)</span></em><br>
-    Los comandos anteriores se pueden ver los cambios realizados en la rama,<br>
-    agregar los cambios a los archivos y confirmar los cambios realizados.</p>
-    <strong><h3>5.enviar cambios al repositorio</h3></strong>
-    <p><em><span class="comando">git push origin nombre-de-la-rama</span></em><br>
-    Con este comando se envian los cambios realizados al repositorio.</p>
-    <strong><h3>6.Historial de cambios</h3></strong>
-    <p><em><span class="comando">git log</span></em><br>
-    Despliega una lista de los cambios realizados en el repositorio con la fecha y hora respectiva de modificacion.</p>
-    <strong><h3>7.Sacar cambios</h3></strong>
-    <p><em><span class="comando">git status<br>git restore</span></em><br>
-    Se usa para deshacer cambios, git status se ejecutara si queremos cambiar un archivo en especifico,<br>
-    si deseamos cambiar el proyecto completo ejecutaremos git restore.</p>
-    <strong><h3>8.Guardar temporalmente</h3></strong>
-    <p><em><span class="comando">git stash save "Descripcion opcional"<br>git stash list</span></em><br>
-    Se usa para guardar temporalmente los cambios que no han sido subidos al repositorio,<br>
-    el segundo comando muestra la lista de todos  los stashes creados y sus respectivas<br>
-    descripciones.</p>
-</div>
-<div class="vent">
-    <strong><h2>Ventajas del uso de Git</h2></strong>
-    <h3>1.Historial Completo y Rastreable</h3>
-    <p>Git permite rastrear y documentar cada cambio realizado en el codigo a lo largo del tiempo.Esto<br>
-        facilita la identificacion de Quien hizo, Que cambió y Cuándo, lo que es esencial para resolver<br>
-        problemas y mantener la transparencia en el desarrollo. 
-    </p>
-    <h3>2.Desarrollo Colaborativo sin Fricción</h3>
-    <p>Con Git, varios desarrolladores pueden trabajar en paralelo en diferentes caracteristicas o soluuciónes<br>
-        sin interferir en el trabajo de los demás.Las ramas y las funciones simplifican la colaboración y<br>
-        permitenuna integracion continua mas fluida.
-    </p>
-    <h3>3.Reversión Cencilla y Segura</h3>
-    <p>En caso de errores o problemas, Git nos permite como desarrolladores retroceder a versiones<br>
-    anteriores de manera rápida y segura.Esto reduce el riesgo de impactos negativos en el proyecto<br>
-    y facilita la correccion de errores.
-    </p>
-    <h3>4.Flujo de Trabajo Flexible</h3>
-    <p>Git se adapta a diferentes flujos de trabajo, desde el modelo de ramificación estandar hasta enfoques<br>
-    más avanzados como Gitflow o GitHub Flow.Esto permite a los usuarios adaptar Git a sus nececidades especificas.
-    </p>
-    <h3>5.Integración con Plataformas de colaboración</h3>
-    <p>Plataformas como GitHub ofrecen caracteristicas de seguimiento de problemas, revisión de código y<br>
-    colaboración en proyectos.Git se integra perfectamente con estas herramientas, facilitando la gestión<br>
-    de proyectos y el trabajo en equipo.
-    </p>
-</div>
-
-
+    </section>
 </body>
 </html>
