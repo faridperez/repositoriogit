@@ -1,5 +1,5 @@
 Integrantes:
-<br>
+<br><br>
 Diego Sarmiento Leon <br>
 Farid Yael Perez De Gabriel <br>
 Jahzeel Isai Reyes Melendez <br>
